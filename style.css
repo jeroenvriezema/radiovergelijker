@@ -1,0 +1,266 @@
+.np_cover_img {
+	width: 50px;
+}
+.np_cover_img img {
+	max-width: 30px;
+	position: absolute;
+	clip: rect(0px, 30px, 30px, 0px);
+}
+
+#loading-image {
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#loading-image img {
+	max-height: 60px;
+}
+
+#site_name {
+	font-weight: 100;
+	color: #555;
+}
+
+.header {
+	background: url('images/header.jpg');
+	background-position: center center;
+	background-size: cover;
+	border-radius: 0;
+	min-height: 200px;
+	margin-bottom: 0;
+	background-repeat: no-repeat;
+}
+
+.navbar{
+	margin-bottom: 32px;
+}
+
+.logo-text {
+	font-weight: 100;
+}
+
+.card-img-top {
+	background-position: center center;
+	background-size: cover!important;
+	background-repeat: no-repeat;
+	height: 200px;
+	border-radius: 0;
+}
+
+.card-img-station {
+	background-position: center center;
+	background-size: contain!important;
+	background-repeat: no-repeat;
+	height: 200px;
+}
+
+.ex-tooltip {
+    position: absolute;
+    background: #EEE;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    padding: 5px;
+    -webkit-box-shadow: 0 1px 3px #000;
+    -moz-box-shadow: 0 1px 3px #000;
+    -ms-box-shadow: 0 1px 3px #000;
+    -o-box-shadow: 0 1px 3px #000;
+    box-shadow: 0 1px 3px #000;
+    border-collapse: separate;
+    display: none;
+	z-index: 999;
+}
+
+.section-title {
+	text-transform: uppercase;
+	color: #555;
+	font-weight: 100;
+}
+
+.artist-page {
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.chart {
+	height: 200px;
+}
+
+.special-event, .special-event a {
+	
+}
+
+.event-title {
+	font-weight: bold;
+}
+
+/*Page Header*/
+.page-header {
+	background: url('https://radiovergelijker.nl/images/header.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right center;
+	border-radius: 0;
+	margin-bottom: 0;
+}
+
+/*Breadcrumbs */
+.breadcrumbs {
+	background-color: #2C343E;
+	margin-bottom: 32px;
+}
+
+.breadcrumbs form {
+	margin-top: 10px;
+}
+
+.search-form input {
+	border-radius: 0!important;
+	border: 0;
+}
+
+.search-form span {
+	border: 0;
+	background: #fff;
+	border-radius: 0!important;
+	border-right: 1px solid #eee!important;
+}
+.breadcrumb {
+	border-radius: 0;
+	background-color: transparent;
+	margin-bottom: 0;
+}
+
+.search-form {
+	vertical-align: middle;
+}
+
+/* Cards */
+.card {
+	border-radius: 0;
+}
+
+.card-header {
+	border-radius: 0!important;
+}
+
+.nav-item {
+	border-radius: 0;
+}
+
+.side-card {
+	border: 0;
+}
+
+.side-card .card-title {
+	color: #272727;
+}
+
+.card-radio-station {
+	margin: 20px 0;
+}
+
+.card-header, .side-card {
+	background-color: #AFBDBD;
+}
+
+/*Header */
+.section-title {
+	border-bottom: 2px solid #7492A3;
+	padding-bottom: 10px;
+	color: #7492A3;
+}
+
+.top5-now .card-img-top {
+	height: inherit;
+	width: 100%;
+}
+
+.top5-now .card {
+	border: none;
+}
+
+.card-footer {
+	border-radius: 0;
+}
+
+.top5-now .card-block {
+	text-align: center;
+	color: #aaa;	
+	height: 100%;
+	min-height: 200px;
+}
+
+.top5-now .card {
+	background: rgba(255,255,255,0.3);
+}
+
+.top5-now .card-title, .top5-now p {
+	color: #fff;
+}
+
+.top5-now .card-footer {
+	border: none;
+	border-radius: 0;
+	vertical-align: bottom;
+	width:100%;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+}
+
+.card-title {
+	font-weight: 300;
+	text-transform: uppercase;
+	color: #7492A3;
+}
+
+/*nowPlaying*/
+#nowPlaying:first-child {
+	border-top: 0;
+}
+
+.table tr:first-child td {
+	border-top: 0;
+}
+
+.top5-container {
+	background-color: #7492A3;
+	margin-top: -32px;
+	
+}
+
+.color-container {
+	padding: 40px 0;
+}
+
+.top5-container .section-title {
+	color: #D1D9CA;
+}
+
+.event {
+	padding-left: 10px;
+}
+.top5-radio-container {
+	background-color: #D1D9CA;
+}
+
+.nav-tabs, .nav-link {
+	border-radius: 0!important;
+}
+
+.title-important {
+	border-bottom: 2px solid #7492A3;
+	padding-bottom: 10px;
+}
+
+.last-played-img {
+	max-width: 100px;
+}
+
+.last-played-song {
+	margin-bottom: 0;
+}
